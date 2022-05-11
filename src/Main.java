@@ -45,5 +45,20 @@ public class Main {
         recC.vCube(xC);
 
         recC.viewResultCube();
+
+
+        /**
+         * SPHERE
+         */
+        Sphere recSp = new Sphere();
+        Scanner ns = new Scanner(System.in);
+
+        System.out.println("Введите длину радиуса: ");
+        double xS = in.nextDouble();
+        recSp.areaSphere(xS);
+        recSp.vSphere(xS);
+
+        recSp.viewResultSphere();
+
     }
 }
