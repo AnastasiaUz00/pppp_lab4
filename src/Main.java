@@ -16,5 +16,20 @@ public class Main {
         rec.areaCalculator(num1, num2);
 
         rec.viewResult();
+
+        /**
+         * SQUARE
+         */
+        Square recS = new Square();
+        Scanner n = new Scanner(System.in);
+
+        System.out.println("Введите длину квадрата: ");
+        double x = in.nextDouble();
+
+
+        recS.perimeterSquare(x);
+        recS.areaSquare(x);
+
+        recS.viewResultSquare();
     }
 }
