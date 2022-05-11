@@ -31,5 +31,19 @@ public class Main {
         recS.areaSquare(x);
 
         recS.viewResultSquare();
+
+
+        /**
+         * CUBE
+         */
+        Cube recC = new Cube();
+        Scanner nc = new Scanner(System.in);
+
+        System.out.println("Введите длину куба: ");
+        double xC = in.nextDouble();
+        recC.areaCube(xC);
+        recC.vCube(xC);
+
+        recC.viewResultCube();
     }
 }
